@@ -19,7 +19,7 @@
     {
 	public static CloudBlob GetBlob() 
          { 
-             string connectionString = "DefaultEndpointsProtocol=http;AccountName=xhjssa3zjl2rssalinuxvm;AccountKey=eh/Z9aH5uH0IfKVIX47cCx7JGoViewJXY1dEIKexZ8zh8kVJf0NuvdxexbAQvaULF1HFclJfUSgaezTIG1B0Rw=="; 
+             string connectionString = "DefaultEndpointsProtocol=http;AccountName=[accountname];AccountKey=[accountkey]"; 
              CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString); 
  
  
